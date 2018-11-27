@@ -2,7 +2,7 @@
   "kind": "Template",
   "apiVersion": "v1",
   "metadata": {
-    "name": "httpd-example",
+    "name": "httpd-example-01",
     "annotations": {
       "openshift.io/display-name": "Apache HTTP Server",
       "description": "An example Apache HTTP Server (httpd) application that serves static content. For more information about using this template, including OpenShift considerations, see https://github.com/sclorg/httpd-ex/blob/master/README.md.",
@@ -18,7 +18,7 @@
   "message": "The following service(s) have been created in your project: ${NAME}.\n\nFor more information about using this template, including OpenShift considerations, see https://github.com/sclorg/httpd-ex/blob/master/README.md.",
   "labels": {
       "template": "httpd-example",
-      "app": "httpd-example"
+      "app": "httpd-example-01"
   },
   "objects": [
     {
